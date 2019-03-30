@@ -1,4 +1,4 @@
-package ru.mukhin;
+package ru.mukhin.singleton;
 
 public class Singleton {
     private static volatile Singleton instance;

@@ -1,6 +1,6 @@
 import org.junit.Assert;
 import org.junit.Test;
-import ru.mukhin.Singleton;
+import ru.mukhin.singleton.Singleton;
 
 public class SingletonTest {
     @Test

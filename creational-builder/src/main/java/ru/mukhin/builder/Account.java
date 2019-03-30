@@ -1,3 +1,5 @@
+package ru.mukhin.builder;
+
 public class Account {
     private int id;
     private String name;
@@ -19,7 +21,7 @@ public class Account {
 
     @Override
     public String toString() {
-        return "Account{" +
+        return "ru.mukhin.builder.Account{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 '}';
