@@ -2,7 +2,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import ru.mukhin.builder.Account;
 
-public class testBuilder {
+public class TestBuilder {
     @Test
     public void testBuilder() {
         int testId = 1;

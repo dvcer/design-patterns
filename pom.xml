@@ -12,7 +12,15 @@
         <module>creational-signleton</module>
         <module>creational-builder</module>
         <module>creational-prototype</module>
+        <module>creational-factory</module>
+        <module>creational-abstract-factory</module>
     </modules>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
