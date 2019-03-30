@@ -17,7 +17,6 @@ public class Account {
         return new Account().new Builder();
     }
 
-
     @Override
     public String toString() {
         return "Account{" +
@@ -31,7 +30,6 @@ public class Account {
         private Builder() {
 
         }
-
 
         public Builder withId(int id) {
             Account.this.id = id;
