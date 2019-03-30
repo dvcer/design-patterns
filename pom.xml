@@ -10,6 +10,16 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>creational-signleton</module>
+        <module>builder</module>
     </modules>
-
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.12</version>
+                <scope>test</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>
