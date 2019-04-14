@@ -14,6 +14,8 @@
         <module>creational-prototype</module>
         <module>creational-factory</module>
         <module>creational-abstract-factory</module>
+        <module>structural-adapter</module>
+        <module>structural-bridge</module>
     </modules>
 
     <properties>
