@@ -16,6 +16,8 @@
         <module>creational-abstract-factory</module>
         <module>structural-adapter</module>
         <module>structural-bridge</module>
+        <module>structural-composite</module>
+        <module>creational-factory-kit</module>
     </modules>
 
     <properties>
