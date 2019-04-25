@@ -18,6 +18,7 @@
         <module>structural-bridge</module>
         <module>structural-composite</module>
         <module>creational-factory-kit</module>
+        <module>structural-decorator</module>
     </modules>
 
     <properties>
