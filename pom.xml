@@ -20,6 +20,7 @@
         <module>creational-factory-kit</module>
         <module>structural-decorator</module>
         <module>structural-facade</module>
+        <module>structural-flyweight</module>
     </modules>
 
     <properties>
