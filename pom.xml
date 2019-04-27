@@ -22,6 +22,8 @@
         <module>structural-facade</module>
         <module>structural-flyweight</module>
         <module>structural-proxy</module>
+        <module>structural-flyweight</module>
+        <module>behavioral-chain-of-responsobility</module>
     </modules>
 
     <properties>
