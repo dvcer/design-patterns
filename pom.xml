@@ -25,6 +25,7 @@
         <module>structural-flyweight</module>
         <module>behavioral-chain-of-responsobility</module>
         <module>behavioral-command</module>
+        <module>behavioral-mediator</module>
     </modules>
 
     <properties>
