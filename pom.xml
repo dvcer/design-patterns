@@ -26,6 +26,7 @@
         <module>behavioral-chain-of-responsobility</module>
         <module>behavioral-command</module>
         <module>behavioral-mediator</module>
+        <module>behavioral-memento</module>
     </modules>
 
     <properties>
