@@ -1,10 +1,7 @@
-public class Ticket {
+public interface Ticket {
 
 
-    public boolean isValidTicket() {
-        return true;
-    }
+    boolean isValidTicket();
 
-    public void postPassingOperation() {
-    }
+    void postPassingOperation();
 }

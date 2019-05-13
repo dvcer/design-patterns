@@ -2,8 +2,8 @@ public class TurnStile implements State {
     private State state;
     private boolean isOpen;
 
-    public TurnStile(State initialState) {
-        this.state = initialState;
+    public TurnStile() {
+        this.state = new ClosedState(this);
     }
 
     @Override
@@ -12,8 +12,8 @@ public class TurnStile implements State {
     }
 
     @Override
-    public String onTicketCheck() {
-        return state.onTicketCheck();
+    public String onTicketCheck(Ticket ticket) {
+        return state.onTicketCheck(ticket);
     }
 
     public void changeState(State newState) {

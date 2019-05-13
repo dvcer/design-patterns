@@ -5,7 +5,7 @@ public class ClosedState extends AbstractState {
 
     @Override
     public String onEntry() {
-        return "TurnStile is closed. Please use your ticket."
+        return "TurnStile is closed. Please use your ticket.";
     }
 
     @Override
@@ -13,8 +13,9 @@ public class ClosedState extends AbstractState {
         if (ticket.isValidTicket()) {
             ticket.postPassingOperation();
             turnStile.setOpen(true);
-            return "Passage is opened.";
+            turnStile.changeState(new OpenState(turnStile));
+            return "Ticket is valid. Passage is opened.";
         }
-        return "Passage is closed. Please buy new ticket.";
+        return "Ticket is not valid. Passage is closed.";
     }
 }
